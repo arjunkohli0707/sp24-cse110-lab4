@@ -9,7 +9,7 @@
 9) The code will cause an error. Since the let keyword is used to create the variable i, it is not defined outside the scope of the for loop so when `console.log(i)` is run there is an error since i is not defined.
 10) 3 will be printed to the terminal. This is because length is a const variable and the console.log(length) statement is in the same block scope as the statement where length is defined. Also length is not updated anywhere so there is no error.
 11) This function will return `[50, 100, 150]` as it essentially applies a 50% discount to the price of each item in the array prices. This is because even though the const keyword is used, when the discounted array is updated, it always happens within the for loop which is in the same scope as finalPrice and discountedPrice. Also, discounted is a const array, which is why even though we cannot reassign the variable, we can add and remove from it.
-12A) `student.name`
+- 12A) `student.name`
 - B) `student["Grad Year]`
 - C) `student.greeting()`
 - D) `student["favorite teacher"].name`
